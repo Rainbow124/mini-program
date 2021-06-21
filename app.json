@@ -1,7 +1,40 @@
 {
   "pages": [
-    "Pages/home/home",
-    "Pages/about/about"
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/mine/mine"
   ],
+  "window": {
+    "navigationBarBackgroundColor": "#396AFC",
+    "navigationBarTitleText": "雷蜂觅客",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#D5D5D5",
+    "selectedColor": "#396AFC",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/icon/tabbar-home-gray.png",
+        "selectedIconPath": "/images/icon/tabbar-home-blue.png"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "text": "推荐",
+        "iconPath": "/images/icon/tabbar-recommend-gray.png",
+        "selectedIconPath": "/images/icon/tabbar-recommend-blue.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/icon/tabbar-my-gray.png",
+        "selectedIconPath": "/images/icon/tabbar-my-blue.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json"
 }
